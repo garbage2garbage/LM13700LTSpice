@@ -1,4 +1,4 @@
-.SUBCKT HALF13700    LIN   INP   INN  IAB  OUT VCC   BIN  BUF
+.SUBCKT HALF13700    LIN   INP   INN  IAB  OUT  VCC  VSS  BIN  BUF
 QN1     IAB   VN2B   VSS   NPNV     3
 QN2     VN2B  VN2B   VSS   NPNV     3
 QN3     VN3C  IAB    VN2B  NPNV     3
@@ -33,5 +33,4 @@ QP6     OUT   VP6B   VP5B  PNPL     3
 +ISE=3E-15      NE=3
 *==========================================================
 +CJE=4E-12 CJC=6E-13 CJS=5E-12 TF=70E-9 )
-
 .end
